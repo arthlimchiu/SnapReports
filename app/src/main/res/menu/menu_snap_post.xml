@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="snapreports.android.hackathon.com.snapreports.SnapPostActivity">
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/snap_picture"
+        android:title="Camera"
+        android:icon="@drawable/ic_action_camera"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/snap_gallery"
+        android:title="Gallery"
+        android:icon="@drawable/ic_action_picture"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/snap_post"
+        android:title="Post"
+        android:icon="@drawable/ic_action_accept"
+        app:showAsAction="always"/>
+</menu>

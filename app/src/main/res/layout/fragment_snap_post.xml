@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             tools:context="snapreports.android.hackathon.com.snapreports.SnapPostFragment">
+
+    <TextView
+        android:id="@+id/snap_post_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <ImageView
+        android:id="@+id/snap_post_image"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/snap_post_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:hint="Enter caption here"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <EditText
+            android:id="@+id/snap_post_addres"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/snap_post_search"
+            android:src="@drawable/ic_action_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
